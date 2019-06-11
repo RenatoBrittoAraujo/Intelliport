@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="253dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Distance (Km)"
+        android:inputType="numberDecimal"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="@color/textViewText"
+        android:textColorHint="@color/buttonText"
+        android:textColorLink="@color/textViewText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/payment"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/payment"
+        app:layout_constraintTop_toBottomOf="@+id/payment" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="253dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Weight (Kg)"
+        android:inputType="numberDecimal"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="@color/textViewText"
+        android:textColorHint="@color/buttonText"
+        android:textColorLink="@color/textViewText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/cargo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cargo"
+        app:layout_constraintTop_toBottomOf="@+id/cargo" />
+
+    <EditText
+        android:id="@+id/cargo"
+        android:layout_width="253dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Cargo"
+        android:inputType="textPersonName"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="@color/textViewText"
+        android:textColorHint="@color/buttonText"
+        android:textColorLink="@color/textViewText"
+        android:typeface="sans"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/payment"
+        android:layout_width="253dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Payment"
+        android:inputType="numberDecimal"
+        android:textColor="@color/buttonText"
+        android:textColorHighlight="@color/textViewText"
+        android:textColorHint="@color/buttonText"
+        android:textColorLink="@color/textViewText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/weight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/weight"
+        app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+    <Button
+        android:id="@+id/options"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape"
+        android:text="Delivery Options"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/distance"
+        app:layout_constraintStart_toStartOf="@+id/distance"
+        app:layout_constraintTop_toBottomOf="@+id/distance" />
+
+    <Button
+        android:id="@+id/custom_delivery"
+        android:layout_width="171dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape"
+        android:text="Custom Delivery"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/options"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/options"
+        app:layout_constraintTop_toBottomOf="@+id/delivery_info" />
+
+    <Button
+        android:id="@+id/delivery_info"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        android:background="@drawable/shape"
+        android:text="Delivery info"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="@+id/options"
+        app:layout_constraintTop_toBottomOf="@+id/options" />
+
+    <Button
+        android:id="@+id/learn2"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape"
+        android:text="learn more"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="@+id/delivery_info"
+        app:layout_constraintStart_toEndOf="@+id/delivery_info" />
+
+
+</android.support.constraint.ConstraintLayout>

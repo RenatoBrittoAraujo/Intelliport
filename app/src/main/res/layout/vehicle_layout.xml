@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/driver_list"
+        android:layout_width="297dp"
+        android:layout_height="284dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/add_vehicle"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_list"
+        android:layout_alignStart="@+id/driver_list"
+        android:layout_alignLeft="@+id/driver_list"
+        android:layout_alignEnd="@+id/driver_list"
+        android:layout_alignRight="@+id/driver_list"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@drawable/shape"
+        android:text="Add Vehicle"
+        android:textColor="@color/buttonText"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/remove_vehicle"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_vehicle"
+        android:layout_alignStart="@+id/add_vehicle"
+        android:layout_alignLeft="@+id/add_vehicle"
+        android:layout_alignEnd="@+id/add_vehicle"
+        android:layout_alignRight="@+id/add_vehicle"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:text="Remove Vehicle"
+        android:textColor="@color/buttonText"
+        android:typeface="sans" />
+
+</RelativeLayout>

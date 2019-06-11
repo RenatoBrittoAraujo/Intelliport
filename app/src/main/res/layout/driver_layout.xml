@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/manager"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Loading..."
+        android:textColor="@color/textViewText"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-thin" />
+
+    <ListView
+        android:id="@+id/driver_list"
+        android:layout_width="306dp"
+        android:layout_height="247dp"
+        android:layout_below="@+id/manager"
+        android:layout_alignStart="@+id/manager"
+        android:layout_alignLeft="@+id/manager"
+        android:layout_marginStart="-17dp"
+        android:layout_marginLeft="-17dp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/add_driver"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_list"
+        android:layout_alignStart="@+id/driver_list"
+        android:layout_alignLeft="@+id/driver_list"
+        android:layout_alignEnd="@+id/driver_list"
+        android:layout_alignRight="@+id/driver_list"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/shape"
+        android:text="Add Driver"
+        android:textColor="@color/buttonText"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/remove_driver"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_driver"
+        android:layout_alignStart="@+id/add_driver"
+        android:layout_alignLeft="@+id/add_driver"
+        android:layout_alignEnd="@+id/add_driver"
+        android:layout_alignRight="@+id/add_driver"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/shape"
+        android:text="Remove Driver"
+        android:textColor="@color/buttonText"
+        android:typeface="sans" />
+
+</RelativeLayout>

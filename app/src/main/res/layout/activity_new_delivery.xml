@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/standardBackground"
+    tools:context=".NewDelivery">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Balanced"
+        android:textColor="@color/textViewText"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="@+id/tCheapest"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/tCheapest"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="214dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Select one of the options"
+        android:textColor="@color/textViewText"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toTopOf="@+id/bBalanced"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:gravity="center"
+        android:text="Profitable"
+        android:textColor="@color/textViewText"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-thin"
+
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="Fastest"
+        android:textColor="@color/textViewText"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="@+id/tCheapest"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/tCheapest"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="264dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="New Delivery"
+        android:textColor="@color/textViewText"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tFastest"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/textViewText"
+        android:textSize="12sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="@+id/tCheapest"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tCheapest"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/tBalanced"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:textColor="@color/textViewText"
+        android:textSize="12sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="@+id/tCheapest"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/tCheapest"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/tCheapest"
+        android:layout_width="298dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/textViewText"
+        android:textSize="12sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/bFastest"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape"
+        android:text="Fastest"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/bGoBack"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bChepest"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape"
+        android:text="Profitable"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/bGoBack"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bBalanced"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/shape"
+        android:text="Balanced"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/bFastest"
+        app:layout_constraintEnd_toEndOf="@+id/bGoBack"
+        app:layout_constraintStart_toStartOf="@+id/bGoBack" />
+
+    <Button
+        android:id="@+id/bGoBack"
+        android:layout_width="229dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape"
+        android:text="Go back"
+        android:textColor="@color/buttonText"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

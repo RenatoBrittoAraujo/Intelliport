@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1079676838846",
+    "firebase_url": "https://intelliport-1234.firebaseio.com",
+    "project_id": "intelliport-1234",
+    "storage_bucket": "intelliport-1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079676838846:android:3519a6ddcb049766",
+        "android_client_info": {
+          "package_name": "com.example.intelliport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079676838846-o443l26008ukj4jv3ots9bge2vc900mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intelliport",
+            "certificate_hash": "bc84688982713e9bb6dea001bfe5876076323dbe"
+          }
+        },
+        {
+          "client_id": "1079676838846-vrojdpn9m9tps92pu1u0igteru25f6l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf2gWcqPN5-zTjyN7hXO5PZx1FIsfIvLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079676838846-vrojdpn9m9tps92pu1u0igteru25f6l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

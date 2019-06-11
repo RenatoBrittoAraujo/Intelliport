@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/graph"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/navigation_new_delivery"
+        android:icon="@drawable/pin"
+        android:title="Deliveries" />
+
+    <item
+        android:id="@+id/navigation_new_vehicle"
+        android:icon="@drawable/truck3"
+        android:title="Vehicles" />
+
+    <item
+        android:id="@+id/navigation_new_driver"
+        android:icon="@drawable/person"
+        android:title="Drivers" />
+
+</menu>

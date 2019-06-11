@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Intelliport</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string-array name="vehicles_types">
+        <item>Car</item>
+        <item>Motorcycle</item>
+        <item>Utility Van</item>
+        <item>Truck</item>
+    </string-array>
+
+</resources>

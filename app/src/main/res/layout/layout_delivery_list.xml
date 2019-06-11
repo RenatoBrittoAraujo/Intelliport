@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cargo-vehicle"
+        android:layout_width="192dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_toStartOf="@+id/textView10"
+        android:layout_toLeftOf="@+id/textView10"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/textViewText"
+        app:fontFamily="sans-serif-thin" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="185dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="right|center_vertical"
+        android:text="TextView"
+        android:textColor="@color/textViewText"
+        app:fontFamily="sans-serif-thin" />
+</RelativeLayout>
