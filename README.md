@@ -36,7 +36,7 @@ Preencha detalhes das suas entregas:
 <img src="https://i.imgur.com/FYV67iD.jpg">
 </p>
 
-Veja suas opções de entregas (você escolhe-las manualmente ou deixar que o app faça um curagem das melhores opções):
+Veja suas opções de entregas (você pode escolhe-las manualmente ou deixar que o app faça uma curagem das melhores opções):
 
 <p align="center"> 
 <img src="https://i.imgur.com/OwePbZy.jpg">
@@ -54,5 +54,14 @@ Todos os direitos reservados ao Zé do Caminhão™.
 
 Todos os dados persistentes do app são guardados usando a base de dados [FireBase](https://firebase.google.com/) do [Google](https://www.google.com), bem como contas de usuário. As contas são registradas usando o Firebase Auth, sendo assim não se tem acesso ás senhas pois são criptografadas. Como as contas e dados são totalmente remotas, qualquer smartphone pode acessar a mesma conta.
 
-O arquivo UML está na pasta base do repositório e contém um ilustração visual da interação entre classes no projeto.
+Diagrama UML de casos de uso, demonstrando a interação entre usuário, sistema e a base de dados remota.
 
+<p align="center"> 
+<img src="https://i.imgur.com/PoJGzg9.jpg">
+</p>
+
+Diagrama UML de classes, demonstrando a interação entre as classes relevantes que compõe o app (e a classe delivery log, uma singleton).
+
+<p align="center"> 
+<img src="https://i.imgur.com/slXnccH.png">
+</p>
